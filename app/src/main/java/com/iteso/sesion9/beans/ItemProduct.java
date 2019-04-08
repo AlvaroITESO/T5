@@ -18,6 +18,19 @@ public class ItemProduct implements Parcelable{
     private Integer image;
     private Category category;
 
+
+    @Override
+    public String toString() {
+        return "ItemProduct{" +
+                "code=" + code +
+                ", title='" + title + '\'' +
+                ", store=" + store +
+                ", description='" + description + '\'' +
+                ", image=" + image +
+                ", category=" + category +
+                '}';
+    }
+
     public ItemProduct(int code, String title, Store store, String description, Integer image, Category category) {
         this.code = code;
         this.title = title;

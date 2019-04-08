@@ -19,7 +19,7 @@ import java.util.TimerTask;
 public class ActivitySplashScreen extends AppCompatActivity {
 
 
-
+    public static final String MY_PREFERENCES="com.iteso.sesion9.preferences";
 
     public static final boolean resetStores=false;
 

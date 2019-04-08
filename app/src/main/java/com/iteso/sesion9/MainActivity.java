@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_LogOut) {
 
             SharedPreferences sharedPreferences =
-                    getSharedPreferences(Constant.USER_PREFERENCES, MODE_PRIVATE);
+                    getSharedPreferences(ActivitySplashScreen.MY_PREFERENCES, MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.clear();
             editor.apply();;

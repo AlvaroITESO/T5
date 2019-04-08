@@ -45,7 +45,7 @@ public class ActivityLogin extends AppCompatActivity {
         user.setLooged(true);
 
         SharedPreferences sharedPreferences =
-                getSharedPreferences(Constant.USER_PREFERENCES, MODE_PRIVATE);
+                getSharedPreferences(ActivitySplashScreen.MY_PREFERENCES, MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("USER", user.getName());
         editor.putString("PWD", user.getPassword());
